@@ -2,9 +2,9 @@ import os
 import numpy as np
 import tensorflow as tf
 from datetime import datetime
-from tensorflow.contrib.data import Iterator
-dataset = tf.data.Dataset.from_generator(real_gen, tf.float32)
-iterator = iter(dataset)
+#from tensorflow.contrib.data import Iterator
+#dataset = tf.data.Dataset.from_generator(real_gen, tf.float32)
+#iterator = iter(dataset)
 
 """
 Configuration Part.
