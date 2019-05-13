@@ -31,6 +31,8 @@ Ussage::
   
   5) Once the model is trained TensorflowLite is used to conver it to compress the model. For compression 
      "Post training Quantatization" technique is used.
+     
+  6) .ftlite file(converted file after quantization) can be visualized using https://lutzroeder.github.io/netron/ 
   
     
     
